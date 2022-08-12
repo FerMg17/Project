@@ -1,0 +1,90 @@
+.imgText {
+ display: inline-flex;
+}
+
+.imagenPrincipal {
+    width: 1890px;
+    height: 700px;
+    margin-left: 0%;
+}
+
+.logo {
+    width: 350px;
+    height: 350px;
+}
+
+#menu {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.5rem 1rem;
+    font-size: 50px;
+    gap: 15px;
+    margin-left: 50px;
+}
+
+.li {
+    color: bisque;
+}
+.formulario {
+    display: inline;
+}
+
+.imagen {
+    width: 200px;
+    display: inline;
+    padding: 20px;
+    border: 15px;
+}
+
+.block {
+    display: block;
+}
+
+.boxModel {
+    margin: 10px 25px;
+}
+
+.model {
+   margin: auto auto;
+   overflow: auto;
+   background-color: bisque;
+}
+
+.type{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: medium;
+    color: black;
+}
+
+#ubicacion {
+    margin-left: auto;
+    justify-content: space-between;
+    margin-left: 1080px;
+}
+
+ul {
+    list-style: none;
+    margin-left: auto;
+    padding-left: 25px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: oblique;
+    font-size: 25px;
+}
+
+.servicios {
+    background-color: bisque;
+}
+
+.encabezado {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    font-style: oblique;
+}
+
+
+.citas {
+    display: flex;
+}
