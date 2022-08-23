@@ -1,33 +1,42 @@
 .imgText {
- display: inline-flex;
+ display: grid;
+ grid-template-columns: 1fr 3fr;
 }
 
 .imagenPrincipal {
     width: 1890px;
     height: 700px;
-    margin-left: 0%;
 }
 
 .logo {
     width: 350px;
-    height: 350px;
+    height: 270px;
+    border-radius: 50px;
 }
 
 #menu {
-    position: relative;
-    display: flex;
-    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr 1fr 1fr;
     align-items: center;
-    justify-content: space-between;
-    padding: 0.5rem 1rem;
+    padding: 10px 50px;
     font-size: 50px;
-    gap: 15px;
-    margin-left: 50px;
+    gap: 10px;
+    justify-content: end;
 }
 
-.li {
-    color: bisque;
+.grid-container{
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 15px;
+    margin: 5px;
 }
+
+.grid-main{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: 1fr 1fr;
+}
+
 .formulario {
     display: inline;
 }
@@ -43,15 +52,15 @@
     display: block;
 }
 
-.boxModel {
+/*.boxModel {
     margin: 10px 25px;
-}
+} */
 
-.model {
+ /* .model {
    margin: auto auto;
    overflow: auto;
    background-color: bisque;
-}
+ } */
 
 .type{
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -65,8 +74,31 @@
     margin-left: 1080px;
 }
 
+.grid-footer{
+    display: grid;
+    grid-template-columns: 50px 4fr 1fr;
+    gap: 10px;
+}
+
+.footerM img{
+  width: 50px;
+  height: 50px;
+
+}
+
+.footerU a{
+    text-align: center;
+    font-size: 25px;
+    text-decoration: none;
+    color: black;
+}
+
+.footerC {
+  text-align: center;
+}
+
 ul {
-    list-style: none;
+   list-style: none;
     margin-left: auto;
     padding-left: 25px;
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -74,9 +106,7 @@ ul {
     font-size: 25px;
 }
 
-.servicios {
-    background-color: bisque;
-}
+
 
 .encabezado {
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -87,4 +117,38 @@ ul {
 
 .citas {
     display: flex;
+}
+
+.li a {
+    border-radius: 25px;
+    text-decoration: none;
+    color: black ;
+    justify-content: end;
+}
+
+body {
+    background-color: bisque;
+}
+
+.style {
+ border-radius: 35px;
+}
+
+.grid-corte {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+
+@media (max-width:425px) {
+
+     .grid-main{
+        display: block;
+
+     }
+
+     #menu{
+        display: block;
+     }
+  
 }
