@@ -1,6 +1,7 @@
 .imgText {
  display: grid;
  grid-template-columns: 1fr 3fr;
+ margin-bottom: 15px;
 }
 
 .imagenPrincipal {
@@ -38,14 +39,27 @@
 }
 
 .formulario {
-    display: inline;
+    display: grid;
+    grid-template-columns: 500px;
+}
+
+.grid-form{
+    display: grid;
+    grid-template-columns: 500px 1fr;
+    gap: 15px;
+    margin-bottom: 200px;
 }
 
 .imagen {
-    width: 200px;
-    display: inline;
-    padding: 20px;
-    border: 15px;
+    width: 400px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin-bottom: 25px;
+}
+
+.img {
+    width: 390px;
+    height: 400px;
 }
 
 .block {
@@ -139,6 +153,33 @@ body {
     grid-template-columns: 1fr 1fr 1fr;
 }
 
+.grid-citas {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-bottom: 150px;
+}
+
+.grid-citas a {
+    text-decoration: none;
+    color: black ;
+    transition: all 1s;
+}
+
+.grid-citas a:hover {
+    text-decoration: underline;
+    font-size: large;
+    font-style: oblique;
+}
+
+.li a:hover {
+    background: linear-gradient(bisque, white);
+}
+
+.footerU:hover {
+    text-decoration: underline;
+}
+
+
 
 @media (max-width:425px) {
 
@@ -149,6 +190,18 @@ body {
 
      #menu{
         display: block;
+     }
+
+     .imagen {
+        display: block;
+     }
+
+     .grid-form{
+        display: block;
+     }
+
+     .formulario{
+        margin-bottom: 15px;
      }
   
 }
