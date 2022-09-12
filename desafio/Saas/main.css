@@ -1,0 +1,14 @@
+div h3 {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 20px;
+  font-style: oblique;
+}
+div ul {
+  list-style: none;
+  margin-left: auto;
+  padding-left: 25px;
+  padding-top: 15px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-style: oblique;
+  font-size: 25px;
+}/*# sourceMappingURL=main.css.map */

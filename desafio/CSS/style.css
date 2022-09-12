@@ -47,7 +47,7 @@
     display: grid;
     grid-template-columns: 500px 1fr;
     gap: 15px;
-    margin-bottom: 200px;
+    margin-bottom: 160px;
 }
 
 .imagen {
@@ -111,7 +111,7 @@
   text-align: center;
 }
 
-ul {
+/* ul {
    list-style: none;
     margin-left: auto;
     padding-left: 25px;
@@ -128,7 +128,7 @@ ul {
     font-size: 20px;
     font-style: oblique;
 }
-
+*/
 
 .citas {
     display: flex;
@@ -159,7 +159,8 @@ body {
 .grid-citas {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    margin-bottom: 150px;
+    margin-bottom: 380px;
+    margin-left: 15px;
 }
 
 .grid-citas a {
