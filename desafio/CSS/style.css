@@ -111,7 +111,7 @@
   text-align: center;
 }
 
-/* ul {
+ /*ul {
    list-style: none;
     margin-left: auto;
     padding-left: 25px;
@@ -197,8 +197,25 @@ body {
     margin-bottom: 15px;
 }
 
+.d-block {
+    height: 767px;
+}
 
 
+@media(max-width:1024px) {
+    .d-block{
+        height: auto;
+    }
+
+}
+
+@media(min-width:2560px) {
+    .d-block{
+        height: 1000px;
+        width: 1440px;
+    }
+
+}
 
 @media (max-width:425px) {
 
