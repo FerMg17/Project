@@ -35,7 +35,7 @@
 .grid-main{
     display: grid;
     grid-template-columns: 1fr 2fr;
-    grid-template-rows: 1fr 1fr;
+    grid-template-rows: 1fr 400px;
 }
 
 .formulario {
@@ -46,8 +46,10 @@
 .grid-form{
     display: grid;
     grid-template-columns: 500px 1fr;
-    gap: 15px;
-    margin-bottom: 160px;
+    gap: 55px;
+    margin-bottom: 110px;
+    margin-left: 200px;
+    margin-top: 45px;
 }
 
 .imagen {
@@ -55,10 +57,13 @@
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     margin-bottom: 25px;
+    margin-left: 35px;
+    margin-top: 35px;
+    gap: 15px 15px;
 }
 
 .img {
-    width: 390px;
+    width: 340px;
     height: 400px;
 }
 
@@ -66,15 +71,6 @@
     display: block;
 }
 
-/*.boxModel {
-    margin: 10px 25px;
-} */
-
- /* .model {
-   margin: auto auto;
-   overflow: auto;
-   background-color: bisque;
- } */
 
 .type{
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -111,24 +107,6 @@
   text-align: center;
 }
 
- /*ul {
-   list-style: none;
-    margin-left: auto;
-    padding-left: 25px;
-    padding-top: 15px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-style: oblique;
-    font-size: 25px;
-}
-
-
-
-.encabezado {
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 20px;
-    font-style: oblique;
-}
-*/
 
 .citas {
     display: flex;
@@ -141,10 +119,6 @@
     justify-content: end;
 }
 
-body {
-    background-color: bisque;
-}
-
 .style {
  border-radius: 35px;
 }
@@ -152,15 +126,17 @@ body {
 .grid-corte {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    gap: 10px;
-    margin-bottom: 100px;
+    row-gap: 25px;
+    margin: 30px 25px 35px 45px;
+    column-gap: 35px;
 }
 
 .grid-citas {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    margin-bottom: 380px;
-    margin-left: 15px;
+    margin-bottom: 280px;
+    margin-left: 55px;
+    margin-top: 100px;
 }
 
 .grid-citas a {
@@ -198,7 +174,7 @@ body {
 }
 
 .d-block {
-    height: 767px;
+    height: 667px;
 }
 
 
@@ -242,10 +218,24 @@ body {
 
      .grid-corte{
         display: block;
+        margin-left: 0%;
      }
 
      .grid-citas{
         display: block;
      }
-  
+     
+     .img{
+        margin-bottom: 10px;
+     }
+
+     .grid-image{
+        margin-left: 0px;
+        align-items: auto;
+     }
+
+     .dStyle{
+        margin-left: 0%;
+     }
+
 }

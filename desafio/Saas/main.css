@@ -2,6 +2,10 @@ div h3 {
   font-family: Georgia, "Times New Roman", Times, serif;
   font-size: 30px;
   font-style: oblique;
+  margin-top: 25px;
+}
+div h4 {
+  margin-top: 45px;
 }
 div ul {
   list-style: none;
@@ -11,4 +15,36 @@ div ul {
   font-family: Georgia, "Times New Roman", Times, serif;
   font-style: oblique;
   font-size: 25px;
+}
+
+.navColor {
+  background-color: #C0B7AF;
+}
+
+.bodyColor {
+  background-color: #D3BFAC;
+}
+
+.grid-image {
+  margin-left: 35px;
+  margin-top: 35px;
+}
+
+.image-style {
+  border-radius: 25% 10%;
+  width: 400px;
+}
+
+.grid-item {
+  text-align: left;
+  margin-right: 55px;
+  margin-top: 25px;
+}
+
+.image-serv {
+  border-radius: 15% 10%;
+}
+
+.dStyle {
+  margin-left: 45px;
 }/*# sourceMappingURL=main.css.map */
