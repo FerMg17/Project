@@ -1,5 +1,13 @@
-$navColor: #C0B7AF;
-$bodyColor:#D3BFAC;
+$colores: (
+    nav: #C0B7AF,
+    main: #D3BFAC,
+);
+
+@mixin grid {
+    margin-right: 55px;
+    margin-top: 25px;
+}
+
 div {
     h3 {
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -23,13 +31,6 @@ div {
     }
 }
 
-.navColor {
-    background-color: $navColor;
-}
-
-.bodyColor {
-    background-color: $bodyColor;
-}
 
 .grid-image{
     margin-left: 35px;
@@ -37,14 +38,13 @@ div {
 }
 
 .image-style{
-    border-radius: 25% 10%;
+    @extend .image-serv;
     width: 400px;
 }
 
 .grid-item {
+    @include grid;
     text-align: left;
-    margin-right: 55px;
-    margin-top: 25px;
 }
 
 .image-serv {
@@ -55,3 +55,16 @@ div {
     margin-left: 45px;
 }
 
+@media(max-width:425px) {
+    .grid-image {
+        margin-left: 2%;
+    }
+}
+
+.bg-main {
+    background-color: map-get($colores,main);
+}
+
+.bg-nav {
+    background-color: map-get($colores, nav);
+}

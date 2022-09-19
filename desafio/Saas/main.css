@@ -17,34 +17,38 @@ div ul {
   font-size: 25px;
 }
 
-.navColor {
-  background-color: #C0B7AF;
-}
-
-.bodyColor {
-  background-color: #D3BFAC;
-}
-
 .grid-image {
   margin-left: 35px;
   margin-top: 35px;
 }
 
 .image-style {
-  border-radius: 25% 10%;
   width: 400px;
 }
 
 .grid-item {
-  text-align: left;
   margin-right: 55px;
   margin-top: 25px;
+  text-align: left;
 }
 
-.image-serv {
+.image-serv, .image-style {
   border-radius: 15% 10%;
 }
 
 .dStyle {
   margin-left: 45px;
+}
+
+@media (max-width: 425px) {
+  .grid-image {
+    margin-left: 2%;
+  }
+}
+.bg-main {
+  background-color: #D3BFAC;
+}
+
+.bg-nav {
+  background-color: #C0B7AF;
 }/*# sourceMappingURL=main.css.map */
