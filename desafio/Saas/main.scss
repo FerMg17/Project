@@ -1,6 +1,7 @@
+
 $colores: (
-    nav: #C0B7AF,
-    main: #D3BFAC,
+    nav: #F7D1DE,
+    main: linear-gradient(#F7D1DE, 50%, white),
 );
 
 @mixin grid {
@@ -55,18 +56,8 @@ div {
     margin-left: 45px;
 }
 
-@media(max-width:425px) {
-    .grid-image {
-        margin-left: 2%;
-    }
-
-    .image-serv {
-        width: auto;
-    }
-}
-
 .bg-main {
-    background-color: map-get($colores,main);
+    background: map-get($colores,main);
 }
 
 .bg-nav {
@@ -123,9 +114,13 @@ div {
        display: grid;
        grid-template-columns: 500px 1fr;
        gap: 55px;
-       margin-bottom: 110px;
+       margin-bottom: 368px;
        margin-left: 200px;
        margin-top: 45px;
+   }
+   
+   .form-control{
+    width: fit-content;
    }
    
    .imagen {
@@ -244,6 +239,11 @@ div {
        margin-left: 75px;
        margin-top: 25px;
    }
+
+   .form_img{
+    width: 400px;
+    height:400px;
+   }
    
    .telefonoF{
        margin-bottom: 15px;
@@ -253,102 +253,4 @@ div {
        height: 667px;
    }
    
-   
-   @media(max-width:1024px) {
-       .d-block{
-           height: auto;
-       }
-   
-       .imagen{
-           margin-left: 1%;
-       }
-   
-       .grid-corte {
-           margin-left: 2%;
-       }
-   
-       .grid-citas {
-           display: block;
-           align-content: center;
-           margin-left: 5%;
-       }
-   
-       .grid-form {
-           display: block;
-           align-items: center;
-           margin-left: 0%;
-       }
-   
-   }
-   
-   @media(min-width:2560px) {
-       .d-block{
-           height: 1000px;
-           width: 1440px;
-       }
-   
-   }
-   
-   @media (max-width:425px) {
-   
-        .grid-main{
-           display: block;
-   
-        }
-   
-        #menu{
-           display: block;
-        }
-   
-        .imagen {
-           display: block;
-        }
-   
-        .grid-form{
-           display: block;
-        }
-   
-        .formulario{
-           margin-bottom: 15px;
-        }
-   
-        .grid-corte{
-           display: block;
-           margin-left: 0%;
-        }
-   
-        .grid-citas{
-           display: block;
-        }
-        
-        .img{
-           margin-bottom: 10px;
-        }
-   
-        .grid-image{
-           margin-left: 0px;
-           align-items: auto;
-        }
-   
-        .dStyle{
-           margin-left: 0%;
-        }
-
-        .grid-image {
-            margin-left: 2%;
-        }
-    
-        .image-serv {
-            width: auto;
-        }
-
-        .formImage{
-            margin-left: auto;
-            width: auto;
-        }
-
-        .image-style{
-            width: auto;
-        }
-   
-   }
+   @import "medias";

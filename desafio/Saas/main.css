@@ -40,20 +40,12 @@ div ul {
   margin-left: 45px;
 }
 
-@media (max-width: 425px) {
-  .grid-image {
-    margin-left: 2%;
-  }
-  .image-serv, .image-style {
-    width: auto;
-  }
-}
 .bg-main {
-  background-color: #D3BFAC;
+  background: linear-gradient(#F7D1DE, 50%, white);
 }
 
 .bg-nav {
-  background-color: #C0B7AF;
+  background-color: #F7D1DE;
 }
 
 .imgText {
@@ -106,9 +98,15 @@ div ul {
   display: grid;
   grid-template-columns: 500px 1fr;
   gap: 55px;
-  margin-bottom: 110px;
+  margin-bottom: 368px;
   margin-left: 200px;
   margin-top: 45px;
+}
+
+.form-control {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
 }
 
 .imagen {
@@ -226,6 +224,11 @@ div ul {
   margin-top: 25px;
 }
 
+.form_img {
+  width: 400px;
+  height: 400px;
+}
+
 .telefonoF {
   margin-bottom: 15px;
 }
@@ -253,6 +256,17 @@ div ul {
     display: block;
     align-items: center;
     margin-left: 0%;
+    width: 100%;
+  }
+  #formGroupExampleInput {
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+  }
+  #formGroupExampleInput2 {
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
   }
 }
 @media (min-width: 2560px) {
@@ -288,20 +302,28 @@ div ul {
     margin-bottom: 10px;
   }
   .grid-image {
-    margin-left: 0px;
+    margin-left: 2%;
     align-items: auto;
+    width: 100%;
   }
   .dStyle {
     margin-left: 0%;
   }
-  .grid-image {
-    margin-left: 2%;
-  }
   .image-serv, .image-style {
-    width: auto;
+    width: 100%;
   }
   .formImage {
     margin-left: auto;
     width: auto;
+  }
+  .form_img {
+    width: 50%;
+    height: 50%;
+  }
+  .image-style {
+    width: 100%;
+  }
+  .form-label {
+    width: 10px;
   }
 }/*# sourceMappingURL=main.css.map */

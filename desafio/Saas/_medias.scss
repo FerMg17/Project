@@ -1,0 +1,113 @@
+@media(max-width:1024px) {
+    .d-block{
+        height: auto;
+    }
+
+    .imagen{
+        margin-left: 1%;
+    }
+
+    .grid-corte {
+        margin-left: 2%;
+    }
+
+    .grid-citas {
+        display: block;
+        align-content: center;
+        margin-left: 5%;
+    }
+
+    .grid-form {
+        display: block;
+        align-items: center;
+        margin-left: 0%;
+        width: 100%;
+    }
+
+    #formGroupExampleInput {
+        width: fit-content;
+    }
+
+    #formGroupExampleInput2 {
+        width: fit-content;
+    }
+  
+}
+
+@media(min-width:2560px) {
+    .d-block{
+        height: 1000px;
+        width: 1440px;
+    }
+
+}
+
+@media (max-width:425px) {
+
+     .grid-main{
+        display: block;
+
+     }
+
+     #menu{
+        display: block;
+     }
+
+     .imagen {
+        display: block;
+     }
+
+     .grid-form{
+        display: block;
+     }
+
+     .formulario{
+        margin-bottom: 15px;
+     }
+
+     .grid-corte{
+        display: block;
+        margin-left: 0%;
+     }
+
+     .grid-citas{
+        display: block;
+     }
+     
+     .img{
+        margin-bottom: 10px;
+     }
+
+     .grid-image{
+        margin-left: 2%;
+        align-items: auto;
+        width: 100%;
+     }
+
+     .dStyle{
+        margin-left: 0%;
+     }
+ 
+     .image-serv {
+         width: 100%;
+     }
+
+     .formImage{
+         margin-left: auto;
+         width: auto;
+     }
+
+     .form_img {
+        width: 50%;
+        height: 50%;
+     }
+
+     .image-style{
+         width: 100%;
+     }
+
+     .form-label{
+         width: 10px;
+     }
+
+}
