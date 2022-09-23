@@ -237,6 +237,12 @@ div ul {
   height: 667px;
 }
 
+.maps {
+  width: 700px;
+  height: 550px;
+  border-style: 0;
+}
+
 @media (max-width: 1024px) {
   .d-block {
     height: auto;
@@ -325,5 +331,10 @@ div ul {
   }
   .form-label {
     width: 10px;
+  }
+  .maps {
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
   }
 }/*# sourceMappingURL=main.css.map */
